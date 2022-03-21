@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>objectsLovers Dictionary</h1>
+    <h2>
+      Look up any english word to find out its definitions, phonetics and origin
+    </h2>
+      <input id="word-input-field"placeholder="type here" type="text" />
+      <button type="button" id="search-button">SEARCH</button>
+      <button type="button" id="history-button">SHOW SEARCH HISTORY</button>
+      <div id="result">
+        <h3 id="word"></h3>
+        <h3 id="error"></h3>
+        <p id="error-paragraph"></p>
+        <ol id="history-list"></ol>
+        <h4 id="phonetics-header" class="header"></h4>
+        <h3 id="phoneticsText"></h3>
+        <a href="" target="_blank" id="phoneticsLink"></a>
+        <h4 id="definitions-header" class="header"></h4>
+        <ol id="definitions">
+        </ol>
+        <h4 id="origin-header" class="header"></h4>
+        <p id="origin">
+        </p>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Poppins:wght@300&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+h1 {
+    background-color: white;
+    text-align: center;
+    color: maroon;
+}
+h2 {
+    font: italic;
+    color: maroon;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+  padding: 2px 10px;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid grey;
+}
+
+button:hover {
+    border-radius: 0.2em;
+    display: inline-block;
+    background-color: rgb(255, 160, 160);
+    transition-duration: 0.4s;
+    box-shadow: 20px;
+
+}
+#word {
+    color: maroon;
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+#result {
+    margin-left: 20px;
+}
+#word-input-field {
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+#phoneticsText {
+  font-weight: 600;
+}
+
+#phoneticsLink {
+  color: maroon;
+  font-style: italic;
+}
+
+#phoneticsLink:hover {
+  font-weight: 900;
+}
+
+li {
+  margin: 5px 0 5px 20px;
+}
+
+#origin {
+  margin-top: 10px;
+}
+
+#history-list {
+  font-weight: 900;
+}
+
+#history-list li {
+  font-weight: 400;
+}
